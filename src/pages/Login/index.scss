@@ -1,0 +1,116 @@
+.form-wrapper {
+    background-color: rgba(black, 0.1);
+    display: block;
+    margin: 0 auto;
+    max-width: 320px;
+    height: 410px;
+    border-radius: 20px;
+}
+
+.form-title {
+    text-align: center;
+    padding-top: 30px;
+    margin-top: 50px;
+    text-transform: uppercase;
+}
+.form-inner {
+    width: 100%;
+    padding: 20px;
+    min-height: 272px;
+}
+
+.distance-20px {
+    margin-bottom: 20px;
+}
+// .form-login {
+//     min-height: 88px;
+// }
+
+.label {
+    font-weight: 600;
+}
+.input {
+    padding: 14px;
+    border-radius: 16px;
+    border: 1px solid rgba(22, 24, 35, 0.02);
+    margin-top: 3px;
+    transition: all 0.2s ease-in;
+    width: 100%;
+    box-shadow: 0px 2px 4px rgba(22, 24, 23, 0.265);
+    outline: none;
+
+    &:focus {
+        outline: none;
+        border: 1px solid rgba(blue, 0.8);
+        // border: 1px solid rgba(22, 24, 35, 0.35);
+    }
+}
+
+// checkbox
+.checkbox-input {
+    cursor: pointer;
+    transition: all 0.2s ease-in;
+
+    &:hover {
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    }
+}
+.checkbox-title {
+    margin-left: 8px;
+    color: rgba(0, 0, 255, 0.8);
+}
+// error
+
+.error {
+    transition: all 0.2s ease-in;
+    position: absolute;
+    font-size: 1.2rem;
+    color: red;
+    margin-top: -16px;
+}
+
+.mgtop-35px {
+    margin-top: 10px;
+}
+
+.error-messenger {
+    transition: all 0.2s ease-in;
+
+    font-size: 1.2rem;
+    color: red;
+    text-align: center;
+}
+// btn
+
+.form-btn {
+    display: block;
+    margin: 0 auto;
+    outline: none;
+    border-radius: 12px;
+    padding: 10px 80px;
+    margin-top: 0px;
+    background-image: linear-gradient(to right, blue, rgb(245, 25, 245));
+    border: 1px solid transparent;
+    color: black;
+    font-weight: 600;
+    transition: all 0.2s ease-in;
+    cursor: pointer;
+    &:hover {
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    }
+}
+
+// link
+.link {
+    text-decoration: none;
+}
+.link-register {
+    color: rgba(blue, 0.8);
+    text-align: center;
+    margin-top: 12px;
+    transition: all 0.2s ease-in;
+    &:hover {
+        text-decoration: underline;
+        font-weight: 600;
+    }
+}

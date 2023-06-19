@@ -1,0 +1,192 @@
+.men {
+    background-color: rgba(black, 0.03);
+    margin-top: 50px;
+    border-radius: 10px;
+    border: 1px solid rgba(black, 0.03);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.men-wrapper {
+    width: 100%;
+    display: inline-flex;
+    margin: 20px;
+}
+
+.men-img-size {
+    width: 320px;
+    height: 420px;
+    object-fit: cover;
+    border: 2px solid white;
+    border-radius: 6px;
+}
+
+.men-info {
+    margin-left: 30px;
+}
+
+.men-info-title {
+    font-size: 23px;
+    width: 685px;
+    line-height: 25px;
+    min-height: 55px;
+}
+
+.men-info-evaluate {
+    margin-top: 20px;
+}
+
+.men-info-link {
+    text-decoration: none;
+    color: black;
+    margin-left: 20px;
+    font-size: 18px;
+}
+.men-info-border {
+    position: relative;
+    width: 1.7px;
+    height: 17px;
+    background: rgba(0, 0, 0, 0.6);
+    right: -11px;
+    top: -2px;
+}
+
+.men-info-size {
+    display: flex;
+    margin-top: 20px;
+
+    & p {
+        color: #757575;
+        margin-right: 54px;
+        position: relative;
+        top: 6px;
+        font-size: 14px;
+    }
+
+    & button {
+        width: 50px;
+        height: 28px;
+        margin: 0 10px;
+        cursor: pointer;
+        border: 1px solid rgba(black, 0.1);
+        border-radius: 6px;
+    }
+}
+
+.men-img-share {
+    display: flex;
+    margin-top: 20px;
+    & p {
+        margin-right: 10px;
+        font-size: 18px;
+        position: relative;
+        top: 10px;
+    }
+    & svg {
+        color: blue;
+        font-size: 28px;
+        margin-left: 6px;
+        cursor: pointer;
+        transition: all 0.2s ease-in;
+
+        &:hover {
+            transform: scale(1.05);
+        }
+    }
+}
+.men-info-number {
+    display: flex;
+    margin-top: 20px;
+    & p {
+        color: #757575;
+        margin-right: 30px;
+        position: relative;
+        top: 6px;
+        font-size: 14px;
+    }
+    & h5 {
+        position: relative;
+        top: 7px;
+        font-size: 20px;
+        margin: 0px 10px;
+    }
+    & button {
+        width: 50px;
+        height: 28px;
+        margin: 0 10px;
+        cursor: pointer;
+        border: 1px solid rgba(black, 0.1);
+        outline: none;
+        border-radius: 6px;
+        &:focus {
+            border: 1px solid red;
+        }
+    }
+    & .disabled {
+        cursor: not-allowed !important;
+    }
+}
+
+// price
+.men-info-price {
+    display: flex;
+    margin-top: 20px;
+    height: 20px;
+
+    & p {
+        color: #757575;
+        margin-right: 20px;
+        position: relative;
+        top: 6px;
+        font-size: 14px;
+    }
+    & h4 {
+        position: relative;
+        top: 4px;
+        font-size: 25px;
+        right: -38px;
+    }
+}
+.men-info-mgtop70px {
+    margin-top: 110px;
+}
+.men-info-evaluate {
+    display: flex;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.men-info-order {
+    cursor: pointer;
+    border: 1px solid red;
+    color: red;
+    padding: 14px;
+    border-radius: 4px;
+    transition: all 0.2s ease-in;
+
+    & a {
+        text-decoration: none;
+        position: relative;
+        padding: 8px;
+        margin-right: 8px;
+        color: red;
+    }
+    & svg {
+        position: relative;
+        margin-right: 8px;
+        left: 10px;
+    }
+    &:hover {
+        background-color: rgba(red, 0.1);
+    }
+}
+
+.men-info-btn-buy {
+    padding: 8px 18px;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    margin-left: 20px;
+    outline: none;
+    border: 1px solid red;
+    border-radius: 4px;
+    font-size: 18px;
+}

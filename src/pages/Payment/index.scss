@@ -1,0 +1,126 @@
+.Payment-w1175px {
+    width: 1175px;
+    display: block;
+    margin: 0 auto;
+}
+.Payment-table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 10px;
+    border-radius: 18px;
+    overflow: hidden;
+    border: 2px solid #dddddd3f;
+    & td {
+        font-weight: 400;
+    }
+    & td,
+    & th {
+        border: 1px solid #ddd;
+        padding: 8px;
+        text-align: center;
+    }
+    & tr:nth-child(even) {
+        background-color: #f2f2f2;
+    }
+
+    // & tr :hover {
+    //     background-color: #ddd;
+    // }
+    & th {
+        padding-top: 12px;
+        padding-bottom: 12px;
+        color: black;
+    }
+}
+.Payment-table-rows {
+    height: 60px;
+}
+.Payment-table-row {
+    max-height: 80px;
+}
+.Payment-table-row-total {
+    position: relative;
+    left: 204px;
+    font-weight: 500;
+}
+.Payment-row-img {
+    width: 57px;
+    height: 50px;
+    object-fit: cover;
+    border: 2px solid #e0dada;
+    border-radius: 4px;
+}
+.Payment-row-delete {
+    color: red;
+    cursor: pointer;
+    color: rgba(247, 8, 8, 0.977);
+    padding: 6px;
+    font-size: 20px;
+    margin-right: 6px;
+    transition: all 0.2s ease-in;
+
+    &:hover {
+        color: rgb(247, 8, 8);
+        transform: scale(1.2);
+    }
+}
+// .privateRoute-table-rows {
+// }
+
+.Payment-table-row th {
+    text-align: center;
+    font-weight: 400;
+}
+
+.Payment-btn {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.Payment-btn-back {
+    padding: 12px 18px;
+    background-color: white;
+    color: rgb(2, 189, 2);
+    cursor: pointer;
+    margin-left: 20px;
+    outline: none;
+    border: 1px solid rgb(2, 189, 2);
+    border-radius: 6px;
+    font-size: 18px;
+    margin-top: 20px;
+    font-weight: bold;
+    transition: all 0.2s ease-in;
+    &:hover {
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        background-color: rgb(2, 189, 2);
+        color: white;
+    }
+}
+.Payment-total {
+    font-size: 20px;
+    font-weight: bold;
+    position: relative;
+    top: 35px;
+    height: 17px;
+}
+.Payment-btn-confirm {
+    padding: 12px 18px;
+    background-color: rgb(2, 189, 2);
+    color: white;
+    cursor: pointer;
+    margin-left: 20px;
+    outline: none;
+    border: 1px solid rgb(2, 189, 2);
+    border-radius: 6px;
+    font-size: 18px;
+    margin-top: 20px;
+    font-weight: bold;
+    transition: all 0.2s ease-in;
+    &:hover {
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    }
+}
+.paymen-btn-icon {
+    margin-right: 4px;
+}

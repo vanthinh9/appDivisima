@@ -1,0 +1,101 @@
+// images
+.images {
+    position: relative;
+}
+.list-image {
+    min-width: 100%;
+    height: 600px;
+    object-fit: cover;
+}
+
+// title
+
+.title-qc {
+    position: absolute;
+    bottom: 35%;
+    width: 50%;
+    padding-left: 87px;
+}
+
+.title-span {
+    text-transform: uppercase;
+    color: white;
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.title-h2 {
+    text-transform: uppercase;
+    color: white;
+    font-size: 5rem;
+    margin-top: 20px;
+}
+
+.title-messenger {
+    color: white;
+    font-size: 1.6rem;
+    margin-top: 34px;
+    font-weight: 300;
+    line-height: 3rem;
+    font-size: 18px;
+    // animation: messenger 5s ease-in;
+}
+
+// @keyframes messenger {
+//     0% {
+//         opacity: 0;
+//     }
+//     20% {
+//         opacity: 1;
+//     }
+//     80% {
+//         opacity: 0;
+//     }
+//     100% {
+//         opacity: 1;
+//     }
+// }
+.title-btn {
+    display: flex;
+    margin-top: 30px;
+}
+
+.title-btn-transpanrent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    width: 167px;
+    height: 47px;
+    border-radius: 92px;
+    background-color: transparent;
+    margin-right: 6px;
+    border: 1px solid white;
+    font-weight: 500;
+    cursor: pointer;
+
+    &:hover {
+        background-color: rgba(0, 0, 0, 0.856);
+    }
+}
+
+.title-btn-while {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+    color: #000;
+    width: 167px;
+    height: 47px;
+    border-radius: 92px;
+    background-color: #fff;
+    font-weight: 500;
+    border: 1px solid white;
+    cursor: pointer;
+    &:hover {
+        background-color: rgba(255, 0, 140, 0.855);
+    }
+}
